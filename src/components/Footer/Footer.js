@@ -32,7 +32,7 @@ const Footer = () => {
             })}
           </ul>
         </FooterMenuStyles>
-        {allProduct.length > 0 && (
+        {/* {allProduct.length > 0 && (
           <FooterMenuStyles className="footer__menu products__menu">
             <h5>
               <Link to="/products">
@@ -54,7 +54,7 @@ const Footer = () => {
               })}
             </ul>
           </FooterMenuStyles>
-        )}
+        )} */}
 
         {siteMeta.twitterUsername ||
         siteMeta.facebookUsername ||
@@ -62,7 +62,7 @@ const Footer = () => {
         siteMeta.linkedinUsername ? (
           <FooterMenuStyles className="footer__menu social__menu">
             <h5>
-              Follow Barcadia<span>.</span>
+              Follow TUMTICS<span>.</span>
             </h5>
             <ul>
               {siteMeta.twitterUsername && (

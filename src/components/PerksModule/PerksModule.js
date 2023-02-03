@@ -9,7 +9,7 @@ const PerksModule = () => {
     <PerksModuleStyles className="section section__padding">
       <StaticImage
         className="perks__image--bg"
-        src="../../../static/abstract-building.jpg"
+        src="../../../static/tum-bg.jpeg"
         alt="Perks Module"
         layout="constrained"
         placeholder="tracedSVG"

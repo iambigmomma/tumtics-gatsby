@@ -94,7 +94,7 @@ const NavModule = () => {
               </Link>
             </li>
           ))}
-          {featuredProduct && (
+          {/* <{featuredProduct && (
             <li className={subNavIsOpen ? "open" : "closed"}>
               <button
                 type="button"
@@ -137,7 +137,7 @@ const NavModule = () => {
                 })}
               </SubNavStyles>
             </li>
-          )}
+          )}/> */}
         </NavTopLevel>
       </motion.div>
     </NavModuleStyles>

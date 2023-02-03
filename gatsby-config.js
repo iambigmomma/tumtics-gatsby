@@ -8,17 +8,17 @@ require("dotenv").config({
 })
 module.exports = {
   siteMetadata: {
-    title: "Barcadia",
-    description: "A super-fast site using GatsbyJS",
-    author: "Morgan Baker",
-    twitterUsername: "barcadia",
-    facebookUsername: "barcadia",
-    instagramUsername: "barcadia",
-    linkedinUsername: "morgan-baker-development",
+    title: "TUMTICS",
+    description: "致力於創造來自亞洲背景的慕尼黑工業大學校友網路",
+    author: "Jeff Fan",
+    twitterUsername: "tumtics",
+    facebookUsername: "tumtics",
+    instagramUsername: "tumtics",
+    linkedinUsername: "TUMTICS",
     image: "/macbook-color.jpg",
-    siteUrl: "https://barcadia.netlify.com",
-    developerName: "Morgan Baker Development",
-    developerUrl: "https://www.morganbaker.dev",
+    siteUrl: "https://tumtics.com",
+    developerName: "TUMTICS",
+    developerUrl: "https://tumtics.com",
   },
   /* Your site config here */
   plugins: [
@@ -35,7 +35,7 @@ module.exports = {
     {
       resolve: "gatsby-plugin-robots-txt",
       options: {
-        host: "https://barcadia.netlify.com",
+        host: "https://tumtics.com",
         sitemap: "https://barcadia.netlify.com/sitemap.xml",
         policy: [{ userAgent: "*", allow: "/" }],
       },

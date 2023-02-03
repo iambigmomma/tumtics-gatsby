@@ -14,15 +14,12 @@ const Index = () => {
       <Seo title="Home" />
       <Layout>
         <BannerModule
-          title="Welcome to Barcadia"
+          title="Welcome to TUMTICS"
           subTitle="Using a combination of Gatsby and Contentful, Barcadia is ready to deploy and simple to use."
         />
         <BasicTextModule
-          title="A super-fast theme that is easy to get started, using the power of
-            GatsbyJS"
-          content="Using modern CSS properties such as grid, this theme is optmised for
-            speed and mobile devices. Giving users an excellent experience on
-            any device. Future-proofing your product."
+          title="Servus!"
+          content="慕尼黑工大成為了我們生命中的第一個共通點，讓我們從這個點出發，串連起每位校友們互助的全球網絡"
           link="/products"
           linkText="View Products"
         />
@@ -30,8 +27,8 @@ const Index = () => {
           <Perk title="The Title" content="The content" />
         </PerksModule>
         <Features
-          title="Featured Products from Barcadia."
-          introduction="Vivamus quam mauris, pulvinar vel mauris id, interdum semper neque. Proin malesuada libero eget tellus scelerisque, id egestas tortor egestas."
+          title="串連起全球 TUM 的校友網路"
+          introduction="除了學校提供的德文資訊之外，TUMTICS 用中文和英文分享更多不同背景的校友故事。讓我們以文字為橋樑，展開一場跨世代、國界及專業的經驗交流之旅"
         />
         <LatestPosts
           title="The Latest from Barcadia"

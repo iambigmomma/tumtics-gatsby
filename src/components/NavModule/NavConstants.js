@@ -1,18 +1,18 @@
 export const menuItems = [
   {
     path: "/",
-    text: "home",
+    text: "首頁",
   },
   {
     path: "/about",
-    text: "about",
+    text: "關於我們",
   },
   {
     path: "/news",
-    text: "news",
+    text: "最新文章",
   },
   {
     path: "/contact",
-    text: "contact",
+    text: "聯繫我們",
   },
 ]
