@@ -8,7 +8,6 @@ const Post = ({ data: { contentfulPost } }) => {
   return (
     <>
       <Seo title={contentfulPost.title} />
-      nono
       <Layout>
         <PostTemplate {...contentfulPost} />
       </Layout>
